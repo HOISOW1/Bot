@@ -1,3 +1,9 @@
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CRYPTOPAY_TOKEN = os.getenv("CRYPTOPAY_TOKEN")
+ADMIN_IDS = eval(os.getenv("ADMIN_IDS", "[]"))
+
 # config.py
 BOT_TOKEN = "7920504352:AAG8CNg_vo_3UQfPFPU7kazBODDi2QONVKQ"
 BOT_USERNAME = "Botsplitsbot"
@@ -32,5 +38,6 @@ PRICES = {
 # === eSIM — НОВАЯ КАТЕГОРИЯ ===
 ESIM_OPERATORS = ["МТС", "БИЛАЙН", "МЕГАФОН", "ЙОТА"]
 ESIM_PRICE = 7  # $
+
 
 CRYPTOPAY_TOKEN = "479474:AAl7Z2zO3AGjRQLlUvJ0KIjgE3Kl5N0tJdt"
